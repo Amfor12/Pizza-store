@@ -1517,7 +1517,7 @@ body {
 }
 @media (max-width: 46.875em) {
   .category-box__section {
-    column-gap: 10px;
+    column-gap: 5px;
     justify-content: space-around;
     height: auto;
     flex-wrap: nowrap;
@@ -1554,6 +1554,12 @@ body {
   gap: 8px;
   justify-content: center;
   color: #191919;
+}
+@media (max-width: 74.25em) {
+  .category-box__link {
+    width: 6.875rem;
+    height: 6.25rem;
+  }
 }
 @media (max-width: 39.375em) {
   .category-box__link {
